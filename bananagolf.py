@@ -66,7 +66,7 @@ for x in range(0,len(l)):
         for o in range(1,len(y)):
             n=n+y[o]
         exec("a("+n+")")
-    elif y[0]=="#":
+    elif y[0]=="#" or y=="\n":
         continue
     elif y=="R" or y=="R\n":
         print(open(inp).read())
